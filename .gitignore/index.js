@@ -176,9 +176,9 @@ bot.on('message', function (message) {
 
                     createdChannel.setParent(categoryId).then((settedParent) => {
 
-                            settedParent.overwritePermissions(message.guild.roles.find("id", "506845498079182848"), {"READ_MESSAGES": false,});
+                            settedParent.overwritePermissions(message.guild.roles.find("id", "586277440125665316"), {"READ_MESSAGES": false,});
 
-                            settedParent.overwritePermissions(message.guild.roles.find("id", "494928320820150282"), {"READ_MESSAGES": true, "SEND_MESSAGES": true,"ATTACH_FILES": true, "CONNECT": true,"CREATE_INSTANT_INVITE": false, "ADD_REACTIONS": true, "VIEW_CHANNEL": true,});
+                            settedParent.overwritePermissions(message.guild.roles.find("id", "555111820407341057"), {"READ_MESSAGES": true, "SEND_MESSAGES": true,"ATTACH_FILES": true, "CONNECT": true,"CREATE_INSTANT_INVITE": false, "ADD_REACTIONS": true, "VIEW_CHANNEL": true,});
 
                             settedParent.overwritePermissions(message.author, {"READ_MESSAGES": true, "SEND_MESSAGES": true,"ATTACH_FILES": true, "CONNECT": true,"CREATE_INSTANT_INVITE": false, "ADD_REACTIONS": true, "VIEW_CHANNEL": true,});
 
@@ -216,9 +216,9 @@ bot.on('message', function (message) {
 
             createdChannel.setParent(categoryId).then((settedParent) => {
 
-                    settedParent.overwritePermissions(message.guild.roles.find("id", "506845498079182848"), {"READ_MESSAGES": false,});
+                    settedParent.overwritePermissions(message.guild.roles.find("id", "586277440125665316"), {"READ_MESSAGES": false,});
 
-                    settedParent.overwritePermissions(message.guild.roles.find("id", "494928320820150282"), {"READ_MESSAGES": true, "SEND_MESSAGES": true,"ATTACH_FILES": true, "CONNECT": true,"CREATE_INSTANT_INVITE": false, "ADD_REACTIONS": true, "VIEW_CHANNEL": true,});
+                    settedParent.overwritePermissions(message.guild.roles.find("id", "555111820407341057"), {"READ_MESSAGES": true, "SEND_MESSAGES": true,"ATTACH_FILES": true, "CONNECT": true,"CREATE_INSTANT_INVITE": false, "ADD_REACTIONS": true, "VIEW_CHANNEL": true,});
 
                     settedParent.overwritePermissions(message.author, {"READ_MESSAGES": true, "SEND_MESSAGES": true,"ATTACH_FILES": true, "CONNECT": true,"CREATE_INSTANT_INVITE": false, "ADD_REACTIONS": true, "VIEW_CHANNEL": true,});
 
@@ -256,9 +256,9 @@ bot.on('message', function (message) {
 
             createdChannel.setParent(categoryId).then((settedParent) => {
 
-                    settedParent.overwritePermissions(message.guild.roles.find("id", "506845498079182848"), {"READ_MESSAGES": false,});
+                    settedParent.overwritePermissions(message.guild.roles.find("id", "586277440125665316"), {"READ_MESSAGES": false,});
 
-                    settedParent.overwritePermissions(message.guild.roles.find("id", "494928320820150282"), {"READ_MESSAGES": true, "SEND_MESSAGES": true,"ATTACH_FILES": true, "CONNECT": true,"CREATE_INSTANT_INVITE": false, "ADD_REACTIONS": true, "VIEW_CHANNEL": true,});
+                    settedParent.overwritePermissions(message.guild.roles.find("id", "555111820407341057"), {"READ_MESSAGES": true, "SEND_MESSAGES": true,"ATTACH_FILES": true, "CONNECT": true,"CREATE_INSTANT_INVITE": false, "ADD_REACTIONS": true, "VIEW_CHANNEL": true,});
 
                     settedParent.overwritePermissions(message.author, {"READ_MESSAGES": true, "SEND_MESSAGES": true,"ATTACH_FILES": true, "CONNECT": true,"CREATE_INSTANT_INVITE": false, "ADD_REACTIONS": true, "VIEW_CHANNEL": true,});
 
