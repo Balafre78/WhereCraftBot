@@ -550,6 +550,3 @@ bot.on('raw', async event => {
         }
     }
 });
-
-
-//NTQxNzAzMjA1ODg5NzY5NDgy.XPwTiQ.myXSD3a4Br-_XNj1YROZvGlXi8g
