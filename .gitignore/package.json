@@ -1,0 +1,31 @@
+{
+  "name": "wherecraftbot",
+  "version": "2.0.0",
+  "description": "Bot fabriqué exclusivement pour Wherecraft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Moderation",
+    "Music"
+  ],
+  "author": "Balafre78",
+  "license": "ISC",
+  "dependencies": {
+    "array-sort": "^1.0.0",
+    "ascii-art": "^1.5.1",
+    "audit": "0.0.6",
+    "discord.js": "^11.5.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "moment": "^2.24.0",
+    "opus": "0.0.0",
+    "opusscript": "0.0.6",
+    "simple-youtube-api": "^5.2.0",
+    "snekfetch": "^4.0.4",
+    "sqlite3": "^4.0.8",
+    "util": "^0.12.0",
+    "ytdl-core": "^0.29.2"
+  }
+}
