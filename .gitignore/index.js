@@ -236,8 +236,8 @@ ${serverQueue.songs.map(song => `**●** ${song.title}`).join('\n')}
             }});
         }
     
-        if (message.author.bot || !message.content.startsWith(prefix)) return;
-        const args = message.content.slice(prefix.length).trim().split(/ +/g);
+        if (message.author.bot || !message.content.startsWith(PREFIX)) return;
+        const args = message.content.slice(PREFIX.length).trim().split(/ +/g);
         const cmd = args.shift().toLowerCase();
     
         if (cmd === 'ping') {
