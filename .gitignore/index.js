@@ -19,6 +19,8 @@ client.on('error', console.error)
 client.on("ready", async () => {
 
     console.log(`En ligne | Nom : ${client.user.username} | Tag : #${client.user.discriminator} | Id : ${client.user.id}`)
+    
+    client.user.setActivity(`Wherecraft | !help`)
 })
 
 
