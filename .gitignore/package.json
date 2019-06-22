@@ -17,7 +17,7 @@
     "ascii-art": "^1.5.1",
     "audit": "0.0.6",
     "discord.js": "^11.5.1",
-    "ffmpeg": "0.0.4",
+    "ffmpeg": "3.4.4",
     "ffmpeg-binaries": "^4.0.0",
     "moment": "^2.24.0",
     "opus": "0.0.0",
